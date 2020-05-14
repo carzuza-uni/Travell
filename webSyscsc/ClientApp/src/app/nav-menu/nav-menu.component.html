@@ -1,0 +1,18 @@
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['/']">
+        <i class="nc-icon nc-bank"></i>
+        <p>Panel</p>
+      </a>
+    </li>
+    <!-- Usuario admin-->
+    <li [routerLinkActive]="['active']">
+      <a [routerLink]="['/productorConsulta']">
+        <i class="nc-icon nc-bank"></i>
+        <p>Productores - (A)</p>
+      </a>
+    </li>
+    <!-- Fin Usuario admin-->
+  </ul>
+</div>
